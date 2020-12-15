@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato';
+}
+.fa-btn {
+    margin-right: 6px;
+}
+.container {
+    position: relative;
+}
+div .lang {
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+}
