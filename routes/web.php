@@ -21,3 +21,9 @@ Route::group(['middleware' => 'locale'], function()
 {
     Route::get('change-language/{language}', 'TaskController@changeLanguage')->name('user.change-language');
 });
+
+// Add Task 
+Route::post('/task', 'TaskController@addTask')->name('addTask');
+
+// delete tasks 
+Route::delete('/task/{id}', 'TaskController@delete')->name('delete');

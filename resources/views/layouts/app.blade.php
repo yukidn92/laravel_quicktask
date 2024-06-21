@@ -35,7 +35,7 @@
                 <!-- language -->
                 <div class="lang">
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Languages
                         <span class="caret"></span></button>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('user.change-language', ['en']) }}">English</a></li>

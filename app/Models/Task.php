@@ -11,13 +11,6 @@ class Task extends Model
     protected $timestamp = true;
 
     protected $fillable = [
-        'name', 
-        'email', 
-        'password',
-    ];
-
-    protected $hidden = [
-        'password', 
-        'remember_token',
+        'title', 
     ];
 }
